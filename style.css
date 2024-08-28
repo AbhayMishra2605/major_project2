@@ -248,11 +248,11 @@ main {
     justify-content: center;
 }
 
-.third_container .third_left{
+.third_container .third_left {
     margin-top: 2%;
     margin-bottom: 2%;
-    width: 30%;
-    height: 90%;
+    width: 90%;
+    height: auto; 
     display: flex;
     box-sizing: border-box;
     justify-content: space-around;
@@ -260,45 +260,45 @@ main {
     align-items: center;
 }
 
-.third_left1, .third_left2, .third_left3{
+.third_left1, .third_left2, .third_left3 {
     width: 80%;
-    height: 20%;
+    max-width: 100%;
+    height: auto; 
+    padding: 1em;
     letter-spacing: 0.04em;
-    font-size: 25px;
+    font-size: 5vw; 
     font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 3.87em;
+    line-height: 1.2;
     box-sizing: border-box;
     flex-shrink: 1;
-    flex-basis: auto; 
-    
+    flex-grow: 1;
+    flex-basis: auto;
 }
 
-.third_left1{
+.third_left1 {
     border-radius: 22px;
     background-color: #BCE0F6;
-    box-shadow: 0px 6px 35px rgba(0,0,0,0.39) ;
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
     color: #000000;
-    
 }
 
-.third_left2{
+.third_left2 {
     border-radius: 21px;
     background-color: #483EFF;
     border: 5px solid #FFFFFF;
     color: #FFFFFF;
-   
 }
 
-.third_left3{
+.third_left3 {
     border-radius: 21px;
     background-color: #483EFF;
     border: 5px solid #FFFFFF;
     color: #FFFFFF;
-   
 }
+
 
 .help_logo img{
     height: 120px;

@@ -1,0 +1,342 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans',sans-serif;
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 100vww;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #6F6AF7;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.logo {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.nav_links {
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.nav_links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px;
+    display: flex;
+    font-size: x-large;
+    align-items: center;
+}
+
+.nav_links a img{
+   
+    padding: 1px;
+}
+
+.search_box {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.search_box input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 150px;
+}
+
+.search_icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.hamburger_menu {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger_menu img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block; 
+}
+
+main {
+    padding-top: 12%; 
+}
+
+.first_container{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+}
+.left_container{
+    height: 100%;
+    width: 25%;
+    margin-left: 5%;
+    box-shadow: 4px 7px 32px rgba(0,0,0,0.44);
+    border-radius: 20px;
+    
+}
+
+.left_container img{
+    width: 100%;
+    height: 100%;
+}
+
+.right_container {
+    width: 60%; 
+    height: 100%;
+   background-color: #E5D8FF;
+    margin-right: 5%;    
+    border-radius: 15px;
+    box-sizing: border-box; 
+    overflow: hidden; 
+    padding-left: 15px;
+    border-radius: 20px;
+    border: 6px #FFFFFF;
+    box-shadow: inset 3px 5px 27px rgba(0,0,0,0.25);
+    
+}
+
+
+.right_container #text_area {
+    width: 100%; 
+    height: 100%; 
+    color: #6F7373;
+    font-size: 28px;
+    line-height: 1.5em; 
+    box-sizing: border-box;
+    background-color: transparent; 
+}
+.second_container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 93%;
+    margin-left: 3%;
+    height: 100px;
+    margin-top: 7%;   
+}
+#first,#second,#third,#fourth{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 100%;
+    background-color: #929DFF;
+    box-shadow: 0px  9px  31px  rgba(0,0,0,0.4);
+    color:#FFFFFF;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 2em;
+    padding: 10px 20px ;
+    border-radius: 11px;
+
+}
+
+.second_container #first{
+    background-color: #929DFF;
+}  
+
+.second_container #second{
+    background-color: #734CF2;
+}
+
+.second_container #third{
+    background-color:  #D288FF;
+}
+
+
+.second_container #fourth{
+ background-color: #000000;
+}
+
+.third_container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #483EFF;
+    width: 92%;
+    margin-left: 4%;
+    height: 425px;
+    margin-top: 7%;
+    border-radius: 21px;
+    align-items: center;
+}
+
+.third_container .third_right{
+    position: relative;
+   margin-top: 2%;
+   margin-bottom: 2%;
+    background-color: #FFFFFF;
+    border-radius: 19px;
+    height: 90%;
+    width: 65%;
+    padding-top: 3%;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+
+
+#third_container_heading{
+    font-family: 'Inter',sans-serif;
+    color: #04285A;
+    line-height: 0.07em;
+    font-size: 33px;
+    letter-spacing: 0.1em;
+}
+
+#third_right_information{
+    color: #143565;
+    font-family: 'Roboto',sans-serif;
+    padding-top: 3%;
+    padding-left: 6%;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+#third_right_information b{
+    color: #04285A;
+    font-size: 19px;
+}
+
+#next_button{
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 25px;
+    letter-spacing: 0.05em;
+    height: 60px;
+    width: 150px;
+    border-radius: 9px;
+    position: absolute; 
+    bottom: 20px;
+    right: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third_container .third_left {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 30%;
+    height: 90%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third_left1, .third_left2, .third_left3 {
+    width: 80%;
+    max-width: 100%;
+    height: 20%;
+    letter-spacing: 0.04em;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 3.87em;
+    
+}
+
+.third_left1 {
+    border-radius: 22px;
+    background-color: #BCE0F6;
+    box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.39);
+    color: #000000;
+}
+
+.third_left2 {
+    border-radius: 21px;
+    background-color: #483EFF;
+    border: 5px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.third_left3 {
+    border-radius: 21px;
+    background-color: #483EFF;
+    border: 5px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+
+.help_logo img{
+    height: 120px;
+    width: 120px;
+    position: fixed;
+    bottom: 20px;
+    right: 50px; 
+
+}
+.frame {
+    position: sticky;
+    bottom: 55%;     
+    margin-top: 4%;
+    width: 75px;  
+    height: 180px;
+    margin-left: auto; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    padding-right: 10px; 
+   
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.whats_frame ,.x_frame, .meta_frame{
+    border: 3px solid #000000;
+    border-radius: 11px;
+    width: 100%;
+    height: 33%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 5%;  
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+
+.frame_logo {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
